@@ -11,10 +11,10 @@
 ### Install dependencies 
 - `npm install` 
 
-### `Connnect to your mongodb`
+- `Connnect to your mongodb account and create .env file of MONGO_URL`
 
-### Start Client : `npm start`
+- Start Client : `npm start`
 
-### Start Server : `nodemon index.js`
+- Start Server : `nodemon index.js`
 
 ### Server runs on http://localhost:4070 and client on http://localhost:3000
