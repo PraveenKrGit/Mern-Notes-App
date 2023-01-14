@@ -35,4 +35,8 @@ app.get('/api/notes', async(req, res)=>{
     res.json(note)
 })
 
-app.listen(4070);
+if(process.env.API_PORT){
+    app.listen(process.env.API_PORT);
+}
+
+module.exports = app
